@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/old_background"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text_view_title"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/ancient_cities_in_macedonia"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/image_view_first"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="centerCrop"
+           android:src="@drawable/descr_image"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_title" />
+
+        <TextView
+            android:id="@+id/text_view_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/description_home"
+            android:textColor="#000"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_first" />
+
+        <ImageView
+            android:id="@+id/image_view_second"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/description_image"
+            app:layout_constraintTop_toBottomOf="@+id/text_view_first" />
+        <TextView
+            android:id="@+id/text_view_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:text="@string/description_home_second"
+            android:textColor="#000"
+            app:layout_constraintTop_toBottomOf="@+id/image_view_second" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

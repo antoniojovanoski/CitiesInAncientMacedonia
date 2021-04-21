@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff4c2"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_view_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/navigation_home_icon_selector"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/home" />
+
+    <TextView
+        android:id="@+id/text_view_map"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/navigation_map_icon_selector"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/map" />
+
+    <TextView
+        android:id="@+id/text_view_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/navigation_list_icon_selector"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/list" />
+
+    <TextView
+        android:id="@+id/text_view_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/navigation_info_icon_selector"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:text="@string/info" />
+
+</LinearLayout>

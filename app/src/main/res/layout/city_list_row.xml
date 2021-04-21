@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/constraint_layout_main"
+    android:background="@drawable/old_background"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/image_view_thumbnail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    
+    <TextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/image_view_thumbnail"
+        app:layout_constraintTop_toTopOf="@id/image_view_thumbnail"
+        android:layout_marginStart="16dp"
+        android:text="City Name"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_view_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/image_view_thumbnail"
+        app:layout_constraintTop_toBottomOf="@id/text_view_name"
+        android:layout_marginStart="16dp"
+        android:text="City Location"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text_view_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/image_view_thumbnail"
+        app:layout_constraintBottom_toBottomOf="@id/image_view_thumbnail"
+        android:layout_marginStart="16dp"
+        android:text="City Period"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

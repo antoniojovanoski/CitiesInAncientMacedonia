@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Explore AncientMK</string>
+    <string name="anticki_gradovi_vo_mk">Антички градови во Македонија</string>
+    <string name="home">Home</string>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="info">Info</string>
+    <string name="description_home">The geographical area known as Macedonia, literally at the heart of the crossroads between the west and the east, had thriving civilizations and has been a hub for economic activity as early as the 7th Millennium BC.</string>
+    <string name="description_home_second">There are many ancient cities, towns and settlements that existed, and much of our knowledge of these ancient civilizations results from archaeological digs.</string>
+    <string name="ancient_cities_in_macedonia">Ancient Cities in Macedonia</string>
+    <string name="label_name">Name :</string>
+    <string name="label_location">Location :</string>
+    <string name="label_period">Period :</string>
+</resources>
