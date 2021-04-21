@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Explore AncientMK</string>
+    <string name="anticki_gradovi_vo_mk">Антички градови во Македонија</string>
+    <string name="home">Дома</string>
+    <string name="map">Мапа</string>
+    <string name="list">Листа</string>
+    <string name="info">Инфо</string>
+    <string name="description_home">Географската област позната како Македонија, буквално во срцето на раскрсницата помеѓу запад и исток, имала просперитетни цивилизации и била центар за економска активност уште во 7 милениум п.н.е.</string>
+    <string name="description_home_second">Постојат многу антички градови и населби кои постоеле, а голем дел од нашето знаење за овие древни цивилизации е резултат на археолошки ископувања.</string>
+    <string name="ancient_cities_in_macedonia">Антички градови во Македонија</string>
+    <string name="label_name">Име :</string>
+    <string name="label_location">Локација :</string>
+    <string name="label_period">Период :</string>
+</resources>

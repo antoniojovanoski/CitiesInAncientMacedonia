@@ -34,9 +34,23 @@
         android:layout_marginEnd="16dp"
         android:textStyle="bold"
         android:fontFamily="serif"
+        android:textColor="@color/black"
         android:gravity="center"
         android:text="www.linkedin.com/in/antoniojovanoski"
         app:layout_constraintTop_toBottomOf="@id/image_view_flag_mk" />
+    <TextView
+        android:id="@+id/text_view_description_info_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="jovanoskiantonio1998@gmail.com"
+        app:layout_constraintTop_toBottomOf="@id/text_view_description_info" />
 
     <ImageView
         android:id="@+id/image_view_first_logo"
@@ -46,8 +60,7 @@
         android:src="@drawable/android_completed"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_view_description_info" />
-
-
+        app:layout_constraintTop_toBottomOf="@id/text_view_description_info_mail" />
+    
 
 </androidx.constraintlayout.widget.ConstraintLayout>

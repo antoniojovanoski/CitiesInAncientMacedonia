@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Explore AncientMK</string>
-    <string name="anticki_gradovi_vo_mk">Антички градови во Македонија</string>
+    <string name="anticki_gradovi_vo_mk">Ancient Cities in Macedonia</string>
     <string name="home">Home</string>
     <string name="map">Map</string>
     <string name="list">List</string>
@@ -11,4 +11,5 @@
     <string name="label_name">Name :</string>
     <string name="label_location">Location :</string>
     <string name="label_period">Period :</string>
+    <string name="change_language"><![CDATA[change language ->]]></string>
 </resources>
